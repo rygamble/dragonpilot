@@ -5,7 +5,8 @@ import os
 import requests
 
 baseDir = os.path.split(os.path.realpath(__file__))[0]
-githubApiToken = 'a1bdeee22c60fcde021c92add2760b2b1cce1ea1'
+# githubApiToken = 'a1bdeee22c60fcde021c92add2760b2b1cce1ea1'
+githubApiToken = 'c27320e2ae5dc287d2a85902383827001d404a94'
 # githubApiBase  = 'https://api.git.sdut.me'
 githubApiBase  = 'https://api.github.com'
 forks = {
