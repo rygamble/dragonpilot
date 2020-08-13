@@ -51,7 +51,7 @@ forks = {
     #         'default' :'https://github.com/arne182/ArnePilot',
     #         'cn'      :'https://github.com.cnpmjs.org/arne182/ArnePilot',
     #     },
-    },
+    # },
     'rygamble':{
         'branch_url' :githubApiBase + '/repos/rygamble/dragonpilot/branches',
         'cdn' :{
