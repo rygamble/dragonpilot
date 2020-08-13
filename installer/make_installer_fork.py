@@ -6,7 +6,8 @@ import requests
 
 baseDir = os.path.split(os.path.realpath(__file__))[0]
 githubApiToken = 'a1bdeee22c60fcde021c92add2760b2b1cce1ea1'
-githubApiBase  = 'https://api.git.sdut.me'
+# githubApiBase  = 'https://api.git.sdut.me'
+githubApiBase  = 'https://api.github.com'
 forks = {
     # 'commaai':{
     #     'branch_url' :githubApiBase + '/repos/commaai/openpilot/branches',
@@ -43,11 +44,18 @@ forks = {
     #         'cn'      :'https://github.com.cnpmjs.org/gernby/openpilot',
     #     },
     # },
-    'arne':{
-        'branch_url' :githubApiBase + '/repos/arne182/ArnePilot/branches',
+    # 'arne':{
+    #     'branch_url' :githubApiBase + '/repos/arne182/ArnePilot/branches',
+    #     'cdn' :{
+    #         'default' :'https://github.com/arne182/ArnePilot',
+    #         'cn'      :'https://github.com.cnpmjs.org/arne182/ArnePilot',
+    #     },
+    },
+    'rygamble':{
+        'branch_url' :githubApiBase + '/repos/rygamble/dragonpilot/branches',
         'cdn' :{
-            'default' :'https://github.com/arne182/ArnePilot',
-            'cn'      :'https://github.com.cnpmjs.org/arne182/ArnePilot',
+            'default' :'https://github.com/ryangamble/dragonpilot',
+            # 'cn'      :'https://github.com.cnpmjs.org/dragonpilot-community/dragonpilot',
         },
     },
 }
